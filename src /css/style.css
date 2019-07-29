@@ -26,7 +26,8 @@ img {
 
 @media (max-width: 480px) {
   .container {
-    width: 450px;
+    max-width: 450px;
+    width: 95% 
   }
 }
 
