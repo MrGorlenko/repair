@@ -211,10 +211,6 @@ img {
   max-width: 300px;
 }
 
-.hero-image {
-  margin-right: -40px;
-}
-
 @media (max-width: 1200px) {
   .hero-block {
     -webkit-box-orient: vertical;
