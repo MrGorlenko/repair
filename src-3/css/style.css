@@ -248,25 +248,25 @@ img {
   height: 41px;
 }
 
-.main__button__about {
+.main__button-about {
   border: 2px solid #66cc66;
   background: none;
   color: #66cc66;
   cursor: pointer;
 }
 
-.main__button__about:hover {
+.main__button-about:hover {
   background-color: #C0C0C0;
 }
 
-.main__button__order {
+.main__button-order {
   border: none;
   background-color: #66cc66;
   color: white;
   cursor: pointer;
 }
 
-.main__button__order:hover {
+.main__button-order:hover {
   background-color: #006400;
 }
 /*# sourceMappingURL=style.css.map */
