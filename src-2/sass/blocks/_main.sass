@@ -1,0 +1,89 @@
+ul 
+    list-style: none 
+li
+    &:before
+       content: '✓'
+       width: 11px
+       height: 9px
+       color: green
+    
+.main
+    display: flex 
+    justify-content: space-around
+    margin-bottom: 90px
+    &-block 
+        width: 400px
+        height: 660px
+        display: flex
+        flex-direction: column
+        align-items: center
+        background-color: white 
+        &-center 
+            margin-left: 40px
+            margin-right: 40px
+        &__list 
+            margin-top: 34px
+            margin-bottom: 
+            height: 135px
+            text-align: center
+    &__title 
+        margin-top: 50px
+    &__image 
+        margin-top: 5px
+        width: 300px
+        height: 200px
+    &__price 
+        display: inline-block
+        margin-top: 37px
+        font-size: 19px
+        font-weight: 700
+        line-height: 20px
+        &_num 
+            font-size: 30px
+    &__button 
+        border: none
+        border-radius: 8px
+        background-color: #ffb504
+        width: 209px
+        height: 65px
+        color: white 
+        text-transform: uppercase
+
+.extra
+    &-block 
+        display: flex 
+        margin-top: 93px
+        &-segment 
+            display: flex 
+            flex-direction: column
+            align-items: center
+            &-center 
+                margin-left: 110px
+                margin-right: 110px
+                margin: auto
+
+        &__title 
+            font-weight: 700
+            color: #ffffff
+            margin-top: 110px
+            margin-bottom: 49px
+            font-size: 36px
+        &__subtitle 
+            color: #ffffff
+        &-text 
+            display: flex
+            flex-direction: column
+            text-align: center
+    &-image 
+        width: 329px
+        height: 174px
+    &__button 
+        margin-top: 49px
+        width: 146px
+        height: 52px 
+        border: none
+        border-radius: 8px
+        background-color: #ffb504
+        color: white 
+        text-transform: uppercase
+          
