@@ -268,6 +268,11 @@ li:before {
   height: 65px;
   color: white;
   text-transform: uppercase;
+  cursor: pointer;
+}
+
+.main__button:hover {
+  background: #d68b00;
 }
 
 .extra-block {
@@ -333,5 +338,10 @@ li:before {
   background-color: #ffb504;
   color: white;
   text-transform: uppercase;
+  cursor: pointer;
+}
+
+.extra__button:hover {
+  background: #d68b00;
 }
 /*# sourceMappingURL=style.css.map */
