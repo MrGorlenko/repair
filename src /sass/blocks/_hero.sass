@@ -35,6 +35,8 @@
             margin-right: 25px 
         &__text 
             max-width: 300px
+    &-image 
+        margin-right: -40px
 
 @media (max-width: 1200px)
     .hero 
@@ -42,8 +44,21 @@
             flex-direction: column 
         &-list 
             margin-bottom: 44px
+            display: flex
+            flex-direction: column
+            align-items: center
+            &__item
+                &-first 
+                    padding-right: 115px
         &-text 
             padding-right: 10px
+            &__title 
+                text-align: center
+            &__subtitle 
+                display: block 
+                text-align: center
+        &-image 
+            margin: auto 
 
 @media (max-width: 768px)
     .hero 
@@ -52,12 +67,16 @@
                 font-size: 24px
                 line-height: 1.4
                 margin-bottom: 15px
+                text-align: center
             &__subtitle 
                 font-size: 16px
                 margin-bottom: 28px
+
         &-list 
             &__item 
                 margin-bottom: 20px
+                &-first 
+                    padding-right: 160px
             &__text 
                 font-size: 12px
             &__image 
