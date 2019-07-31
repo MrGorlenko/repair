@@ -267,6 +267,14 @@ img {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .hero-block__image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .hero-list {
     margin-bottom: 44px;
     display: -webkit-box;

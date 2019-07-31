@@ -75,6 +75,10 @@
   .hero-block {
     flex-direction: column;
   }
+  .hero-block__image {
+    display: flex;
+    justify-content: center;
+  }
   .hero-list {
     margin-bottom: 44px;
     display: flex;
