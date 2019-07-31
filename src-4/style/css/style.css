@@ -366,7 +366,7 @@ img {
   }
 }
 
-@media (max-width: 321px) {
+@media (max-width: 370px) {
   .hero {
     padding: 30px 0;
   }
