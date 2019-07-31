@@ -1,0 +1,68 @@
+
+.text-box{
+	padding-top: 2rem;
+}
+.result {
+	margin-bottom: 0;
+	margin-top: 3rem;
+}
+.result_1 {
+	font-family: 'OpenSans-Light'
+}
+.result_2 {
+	font-family: 'Bebas-Regular'
+}
+.result_3 {
+	font-family: 'BadScript-Regular'
+}
+.result_4 {
+	font-family: 'Lobster-Regular'
+}
+.fonts {
+	font-size: 2rem;
+	text-align: center;
+	padding: 2rem;
+}
+small {
+	font-size: 1.3rem;
+}
+ 
+@font-face {
+	font-family: 'OpenSans-Light';
+	src: url('../fonts/OpenSans/OpenSans-Light.eot');
+	src: url('OpenSans-Light.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/OpenSans/OpenSans-Light.woff') format('woff'),
+	url('../fonts/OpenSans/OpenSans-Light.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Bebas-Regular';
+	src: url('../fonts/BebasRegular/BebasNeueRegular.eot');
+	src: url('BebasNeueRegular.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/BebasRegular/BebasNeueRegular.woff') format('woff'),
+	url('../fonts/BebasRegular/BebasNeueRegular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'BadScript-Regular';
+	src: url('../fonts/BadScript/BadScript-Regular.eot');
+	src: url('BadScript-Regular.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/BadScript/BadScript-Regular.woff') format('woff'),
+	url('../fonts/BadScript/BadScript-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Lobster-Regular';
+	src: url('../fonts/Lobster/Lobster.eot');
+	src: url('Lobster.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Lobster/Lobster.woff') format('woff'),
+	url('../fonts/Lobster/Lobster.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	}
