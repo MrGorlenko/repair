@@ -56,6 +56,12 @@ img {
   padding: 18px 30px;
 }
 
+@media screen and (max-width: 321px) {
+  .button {
+    border-radius: 3px;
+  }
+}
+
 .navbar {
   padding: 8px 0;
 }
@@ -157,10 +163,13 @@ img {
   .navbar__button {
     width: 137px;
     height: 39px;
-    font-size: 11px;
     padding: 15px 26px;
     margin-right: 13px;
     margin-top: 6px;
+  }
+  .navbar__button-text {
+    font-size: 8px;
+    padding-left: 10px;
   }
   .navbar__logo {
     width: 90px;
@@ -345,6 +354,42 @@ img {
   }
   .hero-list__image {
     margin-right: 15px;
+  }
+  .hero__image {
+    max-width: 70%;
+  }
+}
+
+@media (max-width: 410px) {
+  .hero-text__subtitle {
+    line-height: 25px;
+  }
+}
+
+@media (max-width: 321px) {
+  .hero {
+    padding: 30px 0;
+  }
+  .hero-text__title {
+    text-align: left;
+    margin-bottom: 0;
+    margin-left: 11px;
+  }
+  .hero-text__subtitle {
+    text-align: left;
+    line-height: 21px;
+    width: 84%;
+    margin-left: 11px;
+  }
+  .hero-list {
+    margin-left: 13px;
+    margin-bottom: 8px;
+  }
+  .hero-list__item-first {
+    padding-right: 86px;
+  }
+  .hero__image {
+    max-width: 90%;
   }
 }
 /*# sourceMappingURL=style.css.map */

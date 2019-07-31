@@ -82,10 +82,13 @@
   .navbar__button {
     width: 137px;
     height: 39px;
-    font-size: 11px;
     padding: 15px 26px;
     margin-right: 13px;
     margin-top: 6px;
+  }
+  .navbar__button-text {
+    font-size: 8px;
+    padding-left: 10px;
   }
   .navbar__logo {
     width: 90px;
