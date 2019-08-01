@@ -61,11 +61,6 @@ img {
   padding: 18px 30px;
 }
 
-.button:hover {
-  background-color: #ffdb33;
-  cursor: pointer;
-}
-
 @media screen and (max-width: 321px) {
   .button {
     border-radius: 3px;
@@ -365,6 +360,10 @@ img {
   }
   .hero-text__title {
     text-align: center;
+    margin: auto;
+  }
+  .hero-text__title-extra {
+    margin-bottom: 58px;
   }
   .hero-text__subtitle {
     display: block;
@@ -411,14 +410,18 @@ img {
 
 @media (max-width: 370px) {
   .hero {
-    padding: 30px 0;
+    padding: 53px 0;
   }
   .hero-text__title {
     text-align: left;
     margin-bottom: 0;
-    margin-left: 11px;
+    margin-left: 14px;
+    font-size: 23px;
+    line-height: 1.3;
   }
   .hero-text__subtitle {
+    margin-top: 6px;
+    padding-left: 9px;
     text-align: left;
     line-height: 21px;
     width: 84%;
@@ -426,7 +429,13 @@ img {
   }
   .hero-list {
     margin-left: 13px;
-    margin-bottom: 8px;
+    margin-bottom: 14px;
+  }
+  .hero-list__text {
+    height: 16px;
+  }
+  .hero-list__item:last-child {
+    margin-bottom: 26px;
   }
   .hero-list__item-first {
     padding-right: 86px;
@@ -538,6 +547,67 @@ img {
   .offer-block {
     width: 100%;
     padding-right: 0;
+  }
+}
+
+@media (max-width: 370px) {
+  .offer {
+    padding: 50px 0px;
+  }
+  .offer__title {
+    font-size: 18px;
+    max-width: 280px;
+    line-height: 22px;
+    margin: auto;
+  }
+  .offer__subtitle {
+    max-width: 280px;
+    margin: auto;
+    margin-top: 18px;
+    font-size: 14px;
+    margin-bottom: 27px;
+    line-height: 16px;
+  }
+  .offer__input {
+    margin-left: 15px;
+    width: 275px;
+    height: 65px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .offer__input:last-child {
+    margin-top: 12px;
+  }
+  .offer__button {
+    width: 275px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto;
+    border-radius: 10px;
+    font-size: 15px;
+  }
+  .offer__recall:last-child {
+    margin-left: -40px;
+  }
+  .offer-block__recall {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 23px;
+    margin-bottom: 100px;
+    padding-right: 41px;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -44,11 +44,6 @@ img {
   padding: 18px 30px;
 }
 
-.button:hover {
-  background-color: #ffdb33;
-  cursor: pointer;
-}
-
 @media screen and (max-width: 321px) {
   .button {
     border-radius: 3px;
