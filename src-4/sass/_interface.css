@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Museo Sans Light', sans-serif;
   font-weight: 300;
@@ -40,8 +44,34 @@ img {
   padding: 18px 30px;
 }
 
+.button:hover {
+  background-color: #ffdb33;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 321px) {
   .button {
     border-radius: 3px;
   }
+}
+
+.section {
+  padding: 49px 0;
+}
+
+.section-title {
+  font-size: 24px;
+  font-family: 'Museo Sans Cyrl Bold', sans-serif;
+}
+
+.section-subtitle {
+  display: block;
+  font-size: 16px;
+}
+
+.input {
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  padding: 20px 26px;
+  font-size: 15px;
 }

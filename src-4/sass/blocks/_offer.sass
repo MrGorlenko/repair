@@ -1,0 +1,71 @@
+.offer 
+    background: url('../../img/offer-bg.png') no-repeat
+    background-position: center right 
+    background-size: contain
+    position: relative
+    height: 595px
+    &:before
+        content: ''
+        width: 50%
+        height: 100%
+        position: absolute
+        top: 0
+        left: 0
+        background-color: #fff
+    &-block
+        width: 49.9%
+        padding-right: 90px
+        position: relative
+        &__recall
+            display: flex 
+            margin-top: 25px
+            margin-bottom: 98px
+    &__title 
+        max-width: 360px
+        line-height: 35px
+        margin-bottom: 19px
+        font-size: 23px 
+    &__subtitle
+        max-width: 250px 
+        margin-bottom: 30px
+        font-family: 'Museo Sans Cyrl Light', sans-serif
+        font-weight: 400 
+        color: #333333
+        line-height: 20px
+    &__input 
+        margin-bottom: 35px
+        width: 240px
+        &:first-child
+            margin-right: 9px
+    &__button 
+        width: 100%
+        min-height: 70px
+        font-size: 16px
+        font-family: 'Museo Sans Cyrl Light', sans-serif
+        font-weight: 600
+    &__recall
+        font-size: 15px
+        max-width: 224px
+        min-height: 39px
+        line-height: 24px
+        font-family: 'Museo Sans Cyrl Light', sans-serif
+        &:last-child 
+            margin-left: 70px
+        &-num
+            font-family: 'Museo Sans Cyrl Bold', sans-serif
+            font-weight: 700
+
+@media (max-width: 1200px)
+    .offer
+        background-size: cover 
+        &__input
+            width: 100%
+            margin-bottom: 10px
+        &__button 
+            font-size: 13px
+@media (max-width: 768px)
+    .offer
+        background: #fff 
+        &-block 
+            width: 100%
+            padding-right: 0
