@@ -1,0 +1,150 @@
+.offer {
+  background: url("../../img/offer-bg.png") no-repeat;
+  background-position: center right;
+  background-size: contain;
+  position: relative;
+  height: 595px;
+}
+
+.offer:before {
+  content: '';
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+}
+
+.offer-block {
+  width: 49.9%;
+  padding-right: 90px;
+  position: relative;
+}
+
+.offer-block__recall {
+  display: flex;
+  margin-top: 25px;
+  margin-bottom: 98px;
+}
+
+.offer__title {
+  max-width: 360px;
+  line-height: 35px;
+  margin-bottom: 19px;
+  font-size: 23px;
+}
+
+.offer__subtitle {
+  max-width: 250px;
+  margin-bottom: 30px;
+  font-family: 'Museo Sans Cyrl Light', sans-serif;
+  font-weight: 400;
+  color: #333333;
+  line-height: 20px;
+}
+
+.offer__input {
+  margin-bottom: 35px;
+  width: 240px;
+}
+
+.offer__input:first-child {
+  margin-right: 9px;
+}
+
+.offer__button {
+  width: 100%;
+  min-height: 70px;
+  font-size: 16px;
+  font-family: 'Museo Sans Cyrl Light', sans-serif;
+  font-weight: 600;
+}
+
+.offer__recall {
+  font-size: 15px;
+  max-width: 224px;
+  min-height: 39px;
+  line-height: 24px;
+  font-family: 'Museo Sans Cyrl Light', sans-serif;
+}
+
+.offer__recall:last-child {
+  margin-left: 70px;
+}
+
+.offer__recall-num {
+  font-family: 'Museo Sans Cyrl Bold', sans-serif;
+  font-weight: 700;
+}
+
+@media (max-width: 1200px) {
+  .offer {
+    background-size: cover;
+  }
+  .offer__input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .offer__button {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 768px) {
+  .offer {
+    background: #fff;
+  }
+  .offer-block {
+    width: 100%;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 370px) {
+  .offer {
+    padding: 50px 0px;
+  }
+  .offer__title {
+    font-size: 18px;
+    max-width: 280px;
+    line-height: 22px;
+    margin: auto;
+  }
+  .offer__subtitle {
+    max-width: 280px;
+    margin: auto;
+    margin-top: 18px;
+    font-size: 14px;
+    margin-bottom: 27px;
+    line-height: 16px;
+  }
+  .offer__input {
+    margin-left: 15px;
+    width: 275px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+  }
+  .offer__input:last-child {
+    margin-top: 12px;
+  }
+  .offer__button {
+    width: 275px;
+    display: flex;
+    margin: auto;
+    border-radius: 10px;
+    font-size: 15px;
+  }
+  .offer__recall:last-child {
+    margin-left: -40px;
+  }
+  .offer-block__recall {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 23px;
+    margin-bottom: 100px;
+    padding-right: 41px;
+  }
+}
