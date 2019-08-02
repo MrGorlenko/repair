@@ -61,11 +61,6 @@ img {
   padding: 18px 30px;
 }
 
-.button:hover {
-  background-color: #ffdb33;
-  cursor: pointer;
-}
-
 @media screen and (max-width: 321px) {
   .button {
     border-radius: 3px;
@@ -619,5 +614,37 @@ img {
     margin-bottom: 100px;
     padding-right: 41px;
   }
+}
+
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.modal_active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.modal-dialog {
+  position: relative;
+  margin: auto;
+  max-width: 450px;
+  width: 90%;
+  min-height: 200px;
+  background-color: #ffffff;
+  padding: 70px;
+}
+
+.modal-dialog__close {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 /*# sourceMappingURL=style.css.map */
