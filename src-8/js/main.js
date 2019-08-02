@@ -14,4 +14,4 @@ function closePanel(){
   modal.classList.remove('modal_active');
 }
 
-setTimeout (closePanel, 5000)
+setTimeout (closePanel, 5000);
