@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ремонт квартир</title>
+    <link rel="stylesheet" href="style/css/normalize.css">
+    <link rel="stylesheet" href="style/css/style.css">
+</head> 
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-block">
+                <div class="navbar__logo">
+                    <img src="img/logo.png" alt="Логотип">
+                </div>
+                <!-- /.navbar__logo -->
+                <div class="navbar__info">
+                    <div class="navbar__contacts">
+                    <span class="navbar__address"> Калуга, Москва, МО </span>
+                    <a class="navbar__phone" href="tel: +7 (495) 42-251-31"> +7 (495) 42-251-31 </a>
+                    </div>
+                    <!-- /.navbar__contacts -->
+                    <button class="button navbar__button" id="button"> <span class="navbar__button-text"> Перезвоните мне </span> </button> <!-- /.button navbar__button -->
+                </div>
+                <!-- /.navbar__info -->
+            </div>
+            <!-- /.navbar-block -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- /.navbar -->
+
+    <main>
+      <section class="hero">
+          <div class="container"> 
+              <div class="hero-block">
+                  <div class="hero-text">
+                      <h1 class="hero-text__title hero-text__title-extra">Внутренняя отделка 
+                            помещений "под ключ"
+                            </h1> 
+                            <span class="hero-text__subtitle">с гарантией качества, прописанной в договоре
+                            </span>
+                            <div class="hero-list__block">
+                            <ul class="hero-list">
+                                <li class="hero-list__item hero-list__item-first">
+                                  <div class="hero-list__image"> 
+                                      <img src="img/clock.png" alt="">
+                                  </div>
+                                  <span class="hero-list__text">Точно соблюдаем сроки
+                                  </span>
+                                </li>
+                                <li class="hero-list__item">
+                                  <div class="hero-list__image">
+                                      <img src="img/calculator.png" alt="">
+                                  </div>
+                                  <div class="hero-list__block-text">
+                                  <span class="hero-list__text">Рассчитаем смету на работы </span>
+                                  <span class="hero-list__text">    и материалы в день обращения </span>
+                                  </div>
+                                </li>
+                                <li class="hero-list__item">
+                                  <div class="hero-list__image">
+                                      <img src="img/paint.png" alt="">
+                                  </div>
+                                  <div class="hero-list__block-text">
+                                  <span class="hero-list__text">Предложим более 100 вариантов </span>
+                                  <span class="hero-list__text">  исполнения дизайна Вашего жилья  </span>
+                                  </div>
+                                </li>
+                            </ul>
+                            </div>
+                      </div>
+                      <div class="hero-block__image"> <img class="hero__image" src="img/hero-image.png" alt="План квартиры"> </div>
+                  <!-- /.hero-image -->
+                  </div>
+                  <!-- /.hero-text -->
+              </div>
+              <!-- /.hero-block -->
+          </div>
+          <!-- /.conteiner -->
+      </section>
+      <!-- /.hero -->
+
+
+      <section class="offer section">
+          <div class="container">
+              <div class="offer-block">
+                <h2 class="section-title offer__title">Мы бесплатно разработаем 
+                    дизайн-проект Вашего жилья 
+                    и реализуем его!
+                  </h2>
+                  <!-- /.section-title -->
+                  <span class="section-subtitle offer__subtitle">Оставьте заявку на разработку 
+                    бесплатного дизайн-проекта!
+                  </span>
+                  <!-- /.section-subtitle -->
+                  <form action="#" id="offer-form" class="form offer__form">
+                      <input type="text" name="Username" class="input offer__input" placeholder="Ваше имя">
+                      <input type="tel" name="Userphone" class="input offer__input" placeholder="Ваш телефон">
+                      <button class="button offer__button" id="offer__button"> Получить бесплатный дизайн-проект
+                    </button>
+                  </form>
+                  <div class="success">
+                      
+                  </div>
+                  <div class="offer-block__recall">
+                      <span class="offer__recall">
+                        Наш менеджер перезвонит Вам
+                        в течение 60 секунд                        
+                      </span>
+                      <span class="offer__recall"> 
+                        или перезвоните нам сами <br>
+                        <b class="offer__recall-num"> +7 (495) 42-251-31 </b>
+                      </span>
+                  </div>
+              </div>
+          </div>
+          <!-- /.ontainer -->
+      </section>
+      <!-- /.offer -->
+ 
+      <!-- <div class="container button__up-block">
+      <button class="button button__up"> Наверх </button>
+      </div> -->
+
+    </main>
+
+    <div class="modal" id="modal">
+        <div class="modal-dialog">
+            <button class="modal-dialog__close" id="close">&times; </button>
+            <div class="modal-column">
+                <div class="modal-content">
+                    Контент
+                </div>
+            </div>
+            <div class="modal-column">
+            <h4 class="modal-column-right__title">Узнайте точную стоимость ремонта по телефону! </h4>
+            <span class="modal-column-right__subtitle">Заполните поля ниже - мы свяжемся с вами! </span>
+            <input class="modal-column-right__input" type="text" placeholder="Ваше имя">
+            <input class="modal-column-right__input" type="text" placeholder="Ваш  телефон">
+            <button class="modal-column-right__button">Узнать стоимость</button>
+            <span class="modal-column-right__bottom-text">Или Вы можете перезвонить нам сами по телефону:</span>
+            <a class="modal-column-right__phone" href="tel: +7 (8182) 42-51-31"> +7 (8182) 42-51-31 </a>
+            </div>
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+
+    <div class="modal-1" id="modal_1">
+            <div class="modal-1-dialog">
+                <button class="modal-1-dialog__close" id="close_1">&times; </button>
+                    <div class="modal-1__content">
+                        Спасибо за заявку, мы скоро вам перезвоним
+                    </div>
+            </div>
+            <!-- /.modal-dialog -->
+        </div>
+        <!-- /.modal -->
+
+
+    <!-- <script src="js/main.js"></script> -->
+    <script
+     src="https://code.jquery.com/jquery-3.4.1.min.js"
+     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+     crossorigin="anonymous">
+    </script>
+    <script src="js/modal.js"></script>
+    <script src="js/offer.js"></script>
+</body>
+</html>
