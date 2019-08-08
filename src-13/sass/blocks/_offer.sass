@@ -20,6 +20,8 @@
             display: flex 
             margin-top: 25px
             margin-bottom: 98px
+
+                
     &__title 
         max-width: 360px
         line-height: 35px
@@ -50,8 +52,13 @@
         min-height: 39px
         line-height: 24px
         font-family: 'Museo Sans Cyrl Light', sans-serif
+        margin-top: -10px
+        @media screen and ( max-width: 861px  )
+          max-width: 260px
         &:last-child 
             margin-left: 70px
+            @media screen and ( max-width: 861px  )
+                margin-left: 10px
         &-num
             font-family: 'Museo Sans Cyrl Bold', sans-serif
             font-weight: 700

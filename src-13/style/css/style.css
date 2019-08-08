@@ -532,10 +532,23 @@ img {
   min-height: 39px;
   line-height: 24px;
   font-family: 'Museo Sans Cyrl Light', sans-serif;
+  margin-top: -10px;
+}
+
+@media screen and (max-width: 861px) {
+  .offer__recall {
+    max-width: 260px;
+  }
 }
 
 .offer__recall:last-child {
   margin-left: 70px;
+}
+
+@media screen and (max-width: 861px) {
+  .offer__recall:last-child {
+    margin-left: 10px;
+  }
 }
 
 .offer__recall-num {
