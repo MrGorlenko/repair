@@ -725,6 +725,13 @@ img {
   }
 }
 
+@media (max-width: 480px) {
+  .offer__title {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
+
 @media (max-width: 390px) {
   .offer {
     padding: 50px 0px;
@@ -955,6 +962,12 @@ img {
   margin-top: 10px;
 }
 
+@media screen and (max-width: 350px) {
+  .modal-dialog__phone {
+    width: 200px;
+  }
+}
+
 .button__up-block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -994,6 +1007,13 @@ img {
 .slider__image {
   margin: auto;
   max-width: 95%;
+}
+
+@media (max-width: 480px) {
+  .portfolio__title {
+    font-size: 20px;
+    line-height: 25px;
+  }
 }
 
 .price__card {
@@ -1114,6 +1134,13 @@ img {
   }
 }
 
+@media (max-width: 480px) {
+  .price__title {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
+
 .step {
   -ms-flex-preferred-size: 20%;
       flex-basis: 20%;
@@ -1182,6 +1209,22 @@ img {
   margin-top: 75px;
 }
 
+@media (max-width: 1200px) {
+  .step {
+    margin-bottom: 30px;
+    -ms-flex-preferred-size: 33%;
+        flex-basis: 33%;
+  }
+  .step:nth-child(3):after {
+    display: none;
+  }
+  .steps-block {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 @media (max-width: 768px) {
   .step {
     margin-bottom: 30px;
@@ -1197,19 +1240,12 @@ img {
   }
 }
 
-@media (max-width: 1200px) {
-  .step {
-    margin-bottom: 30px;
-    -ms-flex-preferred-size: 33%;
-        flex-basis: 33%;
+@media (max-width: 480px) {
+  .steps {
+    padding: 25px 0px;
   }
-  .step:nth-child(3):after {
-    display: none;
-  }
-  .steps-block {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+  .steps__title {
+    font-size: 20px;
   }
 }
 
@@ -1329,7 +1365,7 @@ img {
 @media screen and (max-width: 330px) {
   .interview-list__item {
     max-width: 100%;
-    width: 320px;
+    width: 314px;
   }
 }
 
@@ -1490,6 +1526,9 @@ img {
 }
 
 @media (max-width: 389px) {
+  .interview-list {
+    padding-left: 5%;
+  }
   .interview-list__text {
     font-size: 11px;
     max-width: 275px;
@@ -1511,6 +1550,15 @@ img {
   }
   .interview-list__text {
     max-width: 275px;
+  }
+}
+
+@media (max-width: 347px) {
+  .interview-list {
+    padding-left: 2%;
+  }
+  .interview__item {
+    width: 317px;
   }
 }
 
@@ -1603,6 +1651,7 @@ img {
         flex-basis: 100%;
   }
   .contacts {
+    margin-left: 3%;
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
     padding-left: 0px;
@@ -1641,12 +1690,13 @@ img {
   }
 }
 
-@media (max-width: 439px) {
+@media (max-width: 480px) {
   .contacts {
     padding-top: 70px;
   }
   .contacts__title {
     width: 85%;
+    font-size: 20px;
   }
 }
 

@@ -42,14 +42,7 @@
           display: flex 
           flex-wrap: wrap
           margin-top: 75px
-@media (max-width: 768px)
-    .step
-        margin-bottom: 30px
-        &:after 
-            display: none
-        &s 
-            &-block 
-                flex-direction: column
+
 
 @media (max-width: 1200px)
     .step
@@ -63,3 +56,20 @@
         &s 
             &-block 
                 justify-content: center
+
+@media (max-width: 768px)
+    .step
+        margin-bottom: 30px
+        &:after 
+            display: none
+        &s 
+            &-block 
+                flex-direction: column
+
+@media (max-width: 480px)
+    .step
+        &s 
+            padding: 25px 0px
+            &__title
+                font-size: 20px
+           
