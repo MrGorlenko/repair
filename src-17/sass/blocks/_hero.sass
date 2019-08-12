@@ -121,6 +121,15 @@
             &__image 
         &__image 
             max-width: 70%
+            height: min-intrinsic 
+@media (max-width: 550px)
+    .hero 
+        &-text 
+            &__subtitle 
+                line-height: 25px
+        &__image 
+            max-width: min-intrinsic
+            height: 237px
 
 @media (max-width: 410px)
     .hero 
