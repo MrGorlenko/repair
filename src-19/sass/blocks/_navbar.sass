@@ -1,0 +1,72 @@
+.navbar
+    padding: 6px 0
+    &-block 
+        display: flex 
+        justify-content: space-between
+        align-items: center
+    &__info 
+        display: flex 
+        align-items: center
+        text-align: right 
+    &__contacts 
+        display: flex
+        flex-direction: column 
+    &__address
+        margin-top: 3px
+        color: #333333
+        font-family: 'Museo Sans Light', sans-serif 
+        font-size: 13px
+        font-weight: 300
+    &__button 
+        margin-left: 30px
+        width: 172px
+        height: 49px
+        color: #333333
+        display: flex
+        cursor: pointer 
+        &-text 
+            font-family: 'Museo Sans Bold', sans-serif 
+            font-weight: 700
+            font-size: 13px
+
+        @media (max-width: 768px) 
+            font-size: 13px
+
+    &__phone 
+        margin-top:
+        display: inline-block
+        color: #333333
+        font-size: 20px
+        font-weight: 400 
+        text-decoration: none 
+        margin-top: 5px 
+        font-family: 'Museo Sans Bold', sans-serif
+        font-weight: 700
+    &__logo
+        margin-top: 1.5px
+@media (max-width: 768px)
+    .navbar
+        &__contacts 
+            display: none 
+        &__button 
+            font-size: 12px
+            padding: 15px 26px 
+        &__logo 
+            width: 90px
+@media (max-width: 321px)
+    .navbar
+        &__contacts 
+            display: none 
+        &__button 
+            width: 137px
+            height: 39px
+            padding: 15px 26px 
+            margin-right: 13px
+            margin-top: 6px
+            &-text 
+                font-size: 8px
+                padding-left: 10px
+        &__logo 
+            width: 90px
+            margin-left: 13px
+            margin-top: 7.7px
