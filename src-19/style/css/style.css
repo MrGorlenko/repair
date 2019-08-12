@@ -1358,7 +1358,6 @@ img {
 @media screen and (max-width: 350px) {
   .interview-list__text {
     font-size: 12px;
-    max-width: 275px;
   }
 }
 
@@ -1493,6 +1492,7 @@ img {
 @media (max-width: 389px) {
   .interview-list__text {
     font-size: 11px;
+    max-width: 275px;
   }
   .interview-list__item {
     max-width: 120%;
@@ -1508,6 +1508,9 @@ img {
 @media (max-width: 350px) {
   .brif__interview {
     padding-right: 0;
+  }
+  .interview-list__text {
+    max-width: 275px;
   }
 }
 
