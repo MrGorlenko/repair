@@ -428,9 +428,19 @@ img {
   }
 }
 
-@media (max-width: 410px) {
+@media (max-width: 768px) {
+  .hero__image {
+    max-width: 70%;
+  }
+}
+
+@media (max-width: 550px) {
   .hero-text__subtitle {
     line-height: 25px;
+  }
+  .hero__image {
+    max-width: min-intrinsic;
+    height: 237px;
   }
 }
 
