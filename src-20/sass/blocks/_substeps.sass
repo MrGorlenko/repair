@@ -1,0 +1,59 @@
+.substeps
+    &__base 
+        display: flex 
+        justify-content: space-between
+        &-block
+            display: block 
+            min-width: 30%
+            height: 410px
+            background-image: url('../../img/substeps/man-1.png')
+            background-size: cover 
+            &:nth-child(2)
+                background-image: url('../../img/substeps/man-2.png')
+                background-size: cover
+            &:nth-child(3)
+                background-image: url('../../img/substeps/man-3.png')
+                background-size: cover
+        &-text 
+            display: block 
+            font-size: 16px
+            line-height: 1.4
+            height: 60px
+            margin-top: 27px
+            margin-left: 26px
+            max-width: 260px
+            font-family: 'Museo Sans Light', sans-serif
+            &-second
+                
+            &-third 
+                
+            &-bold 
+                font-weight: 700
+
+@media (min-width: 1200px)
+    .substeps 
+        &__base
+            &-text 
+                &-second 
+                    max-width: 300px
+                &-third 
+                    max-width: 275px 
+
+
+@media (max-width: 1050px)
+    .substeps
+        &__base 
+            display: flex
+            align-items: center
+            flex-direction: column 
+            &-block
+                min-width: 300px
+                margin-top: 30px
+            &-text 
+                font-size: 14px
+                margin: auto
+                margin-top: 20px
+                margin-left: 20px
+                &:first-child
+                    max-width: 260px
+            

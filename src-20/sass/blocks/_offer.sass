@@ -1,0 +1,222 @@
+.offer 
+    background: url('../../img/offer-bg.png') no-repeat
+    background-position: center right 
+    background-size: contain
+    position: relative
+    height: 595px
+    &-form 
+        &__block 
+            display: flex
+            flex-direction: column
+            flex-wrap: wrap
+            height: 90px
+            @media screen and (max-width: 1200px)
+                flex-direction: column
+                height: 100px
+                flex-wrap: inherit
+    &:before
+        content: ''
+        width: 50%
+        height: 100%
+        position: absolute
+        top: 0
+        left: 0
+        background-color: #fff
+    &-block
+        width: 49.9%
+        padding-right: 90px
+        position: relative
+        @media screen and (max-width: 933px)
+            max-width: 70% 
+            margin: auto
+        @media screen and (max-width: 465px)
+            max-width: 80% 
+            margin: auto
+        @media screen and (max-width: 380px)
+            max-width: 100% 
+            margin: auto
+        &__recall
+            display: flex 
+            margin-top: 35px
+            margin-bottom: 98px
+            
+
+                
+    &__title 
+        max-width: 360px
+        line-height: 35px
+        margin-bottom: 19px
+        font-size: 23px 
+        text-align: left 
+    &__subtitle
+        max-width: 250px 
+        margin-bottom: 30px
+        font-family: 'Museo Sans Cyrl Light', sans-serif
+        font-weight: 400 
+        color: #333333
+        line-height: 20px
+    &__input 
+        margin-bottom: 35px
+        max-width: 240px
+        @media screen and (max-width: 1200px)
+            margin: auto
+            max-width: 100% 
+        &:first-child
+            margin-right: 9px
+    &__button 
+        border: none 
+        width: 100%
+        min-height: 70px
+        font-size: 16px
+        font-family: 'Museo Sans Cyrl Light', sans-serif
+        font-weight: 600
+        &:hover 
+            border: none
+
+    &__recall
+        font-size: 15px
+        max-width: 224px
+        min-height: 39px
+        line-height: 24px
+        font-family: 'Museo Sans Cyrl Light', sans-serif
+        margin-top: -10px
+        @media screen and ( max-width: 861px  )
+          max-width: 260px
+        @media screen and ( max-width: 364px  )
+          display: flex 
+          padding-right: 0
+          margin: auto 
+        &:first-child
+            @media screen and ( max-width: 368px  )
+                margin-left: 56px
+        &:last-child 
+            margin-left: 70px
+            @media screen and ( max-width: 861px  )
+                margin-left: 10px
+            @media screen and ( max-width: 368px  )
+                margin-left: 56px
+                margin-top: 5px
+                display: flex
+                flex-direction: column
+        &-num
+            font-family: 'Museo Sans Cyrl Bold', sans-serif
+            font-weight: 700
+            color: black 
+            text-decoration: none 
+
+@media (max-width: 1200px)
+    .offer
+        background-size: cover 
+        &__title 
+            margin-top: -15px
+        &__subtitle 
+            margin-bottom: 25px
+        &__input
+            width: 100%
+            margin: auto
+            margin-top: 10px
+            margin-bottom: 10px
+            &:first-child
+                margin-right: 0px
+        &__button 
+            font-size: 13px
+            margin-top: 85px
+        &__recall
+            font-size: 12px
+        &-form 
+            &__block 
+@media (max-width: 934px)
+    .offer
+        background: #fff 
+        &-block 
+            width: 100%
+            padding-right: 0
+@media (max-width: 768px)
+    .offer
+        background: #fff 
+        &__title 
+            margin-top: -15px
+        &-block 
+            width: 100%
+            padding-right: 0
+        &__input 
+                margin: auto
+                margin-bottom: 25px
+        &__button 
+            margin-top: 50px
+
+@media (max-width: 480px)
+    .offer
+        &__title 
+            font-size: 20px
+            line-height: 25px
+@media (max-width: 390px)
+    .offer 
+        padding: 50px 0px 
+        &__title 
+            font-size: 18px
+            max-width: 280px
+            line-height: 22px
+            margin: auto
+        &__subtitle 
+            max-width: 280px 
+            margin: auto
+            margin-top: 18px
+            font-size: 14px
+            margin-bottom: 27px
+            line-height: 16px
+        &__input 
+            margin-left: 0px
+            max-width: 275px
+            height: 65px
+            display: flex
+            justify-content: center
+            margin: auto
+            &:first-child
+                margin: auto 
+            &:last-child 
+                margin-top: 12px
+        &__button 
+            max-width: 275px
+            display: flex
+            margin: auto 
+            border-radius: 10px
+            font-size: 15px 
+            margin-top: 60px
+        &__recall 
+            font-size: 11px 
+            &:last-child 
+                margin-left: 0
+        &-block 
+            &__recall 
+                display: flex 
+                flex-direction: column
+                align-items: start 
+                margin-top: 23px
+                margin-bottom: 100px
+                padding-right: 41px
+
+@media (max-width: 390px)
+    .offer
+        &-block 
+            &__recall
+                margin-left: 0px
+@media (max-width: 390px)
+    .offer
+        &-block 
+            &__recall
+                margin-left: 56px
+@media (max-width: 367px)
+    .offer
+        &__recall 
+            &:last-child 
+                margin-left: 56px
+@media (max-width: 360px)
+    .offer
+        &-block 
+            &__recall 
+                margin-left: 25px
+@media (max-width: 347px)
+    .offer
+        &__recall 
+            margin-left: 0px

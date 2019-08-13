@@ -1,0 +1,164 @@
+.hero
+    padding: 50px 0px
+    background-color: #f5f5f5
+    &-block 
+        display: flex 
+        justify-content: space-between
+    &-text 
+        flex-basis: 45% 
+        padding-right: 10px
+        &__title 
+            display: block
+            color: #333333
+            margin-bottom: 58px
+            font-family: 'Museo Sans Bold', sans-serif 
+            font-size: 40px
+            font-weight: 700
+            line-height: 55px
+            max-width: 480px
+            max-height: 90px
+        &__subtitle 
+            display: inline-block
+            color: #333333
+            margin-bottom: 67px
+            font-family: 'Museo Sans Bold', sans-serif 
+            font-size: 20px
+            font-weight: 700
+            line-height: 25px
+        &__image
+            display: flex 
+            justify-content: center
+            margin-left: 73px
+    &-list 
+        margin: 0
+        padding: 0
+        &__block
+            &-text 
+                display: flex 
+                flex-direction: column 
+
+                
+        &__item 
+            display: flex 
+            align-items: center 
+            margin-bottom: 27px
+            &:last-child 
+              margin-bottom: 0
+        &__image 
+            width: 40px
+            height: 40px 
+            border: 2px solid #ffd200
+            display: flex 
+            align-items: center 
+            justify-content: center
+            border-radius: 50% 
+            margin-right: 25px 
+        &__text 
+            max-width: 300px
+            font-size: 14px
+            font-family: 'Museo Sans Light', sans-serif
+            font-weight: 400
+            height: 21px
+            color: #333333
+    &__image 
+        max-width: none 
+        margin-top: -5px
+    
+
+@media (max-width: 1200px)
+    .hero 
+        &-block 
+            flex-direction: column 
+            &__image 
+                display: flex 
+                justify-content: center
+        &-list 
+            margin-bottom: 44px
+            display: flex
+            flex-direction: column
+            align-items: baseline 
+            &__block 
+                display: flex 
+                justify-content: center
+            &__item
+                &-first 
+                    padding-right: 115px
+        &-text 
+            padding-right: 10px
+            &__title 
+                text-align: center
+                margin: auto
+                &-extra 
+                    margin-bottom: 58px
+            &__subtitle 
+                display: block 
+                text-align: center
+        &-image 
+            margin: auto 
+
+@media (max-width: 768px)
+    .hero 
+        &-text 
+            &__title
+                font-size: 24px
+                line-height: 1.4
+                margin-bottom: 15px
+                text-align: center
+            &__subtitle 
+                font-size: 16px
+                margin-bottom: 28px
+
+        &-list 
+            &__item 
+                margin-bottom: 20px
+                &-first 
+                    padding-right: 160px
+            &__text 
+                font-size: 12px
+            &__image 
+                margin-right: 15px
+        &-block
+            &__image 
+        &__image 
+            max-width: 70%
+@media (max-width: 768px)
+    .hero
+        &__image 
+            max-width: 70%
+@media (max-width: 550px)
+    .hero 
+        &-text 
+            &__subtitle 
+                line-height: 25px
+        &__image 
+            max-width: min-intrinsic
+            height: 237px
+@media (max-width: 370px)
+    .hero
+        padding: 53px 0
+        &-text 
+            &__title 
+                text-align: left 
+                margin-bottom: 0
+                margin-left: 14px
+                font-size: 23px
+                line-height: 1.3 
+            &__subtitle 
+                margin-top: 6px
+                padding-left: 9px
+                text-align: left 
+                line-height: 21px
+                width: 84%
+                margin-left: 11px
+        &-list
+            margin-left: 13px
+            margin-bottom: 14px
+            &__text 
+                height: 16px
+            &__item
+                &:last-child 
+                    margin-bottom: 26px
+                &-first 
+                    padding-right: 86px
+        &__image
+            max-width: 90%
